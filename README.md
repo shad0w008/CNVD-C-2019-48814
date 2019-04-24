@@ -15,6 +15,6 @@ curl -i http://10.10.20.166:7001/_async/favicon.ico
 ###  CVE-2017-10271 No pactch
 
 ##### resever_shell
-![](./resever_shell.jpg)
+![](./reserve_shell.jpg)
 
 ![](./command.jpg)
