@@ -18,5 +18,5 @@ curl -i http://10.10.20.166:7001/_async/favicon.ico
 ![](./reserve_shell.jpg)
 
 ![](./command.jpg)
-![](./shell.jpg)
+![](./webshell.jpg)
 
